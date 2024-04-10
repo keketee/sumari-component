@@ -3,10 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1>Proyecto Base</h1>
+    <main class="main">
+      <section class="card">
+        <h2 class="card__title">Your Result</h2>
+        <div class="card__circle">
+          <span class="circle__number--one">76</span>
+          <span class="circle__number--two">of 100</span>
+        </div>
+        <span class="subtitle__card">Great</span>
+        <p class="text__card--blue">
+          Your performance exceed 65% of the people conducting the test here!
+        </p>
+      </section>
+      <section class="summary">
+        <span class="summary__title">Summary</span>
+        <article class="results results--red">
+          <div class="resume--red">
+            <img src="./assets/images/icon-reaction.svg" alt="" />
+            <span class="text__resume--red">Reaction</span>
+          </div>
+          <div class="results__resume">
+            <span class="results__resume--small">80</span>
+            <span class="results__resume--big">/ 100</span>
+          </div>
+        </article>
+
+        <article class="results results--yellow">
+          <div class="resume--red">
+            <img src="./assets/images/icon-memory.svg" alt="" />
+            <span class="text__resume--yellow">Memory</span>
+          </div>
+          <div class="results__resume">
+            <span class="results__resume--small">92</span>
+            <span class="results__resume--big">/ 100</span>
+          </div>
+        </article>
+
+        <article class="results results--green">
+          <div class="resume--red">
+            <img src="./assets/images/icon-verbal.svg" alt="" />
+            <span class="text__resume--green">Verbal</span>
+          </div>
+          <div class="results__resume">
+            <span class="results__resume--small">61</span>
+            <span class="results__resume--big">/ 100</span>
+          </div>
+        </article>
+
+        <article class="results results--blue">
+          <div class="resume--red">
+            <img src="./assets/images/icon-visual.svg" alt="" />
+            <span class="text__resume--blue">Visual</span>
+          </div>
+          <div class="results__resume">
+            <span class="results__resume--small">73</span>
+            <span class="results__resume--big">/ 100</span>
+          </div>
+        </article>
+        <a class="button" href="#">Continue</a>
+      </section>
+    </main>
   </body>
 </html>
